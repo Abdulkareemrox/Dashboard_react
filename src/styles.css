@@ -1,0 +1,122 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ListMenu .MuiListItemIcon-root {
+  min-width: 0px !important;
+  background: grey;
+  padding: 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.ListMenu .MuiButtonBase-root:hover .MuiListItemIcon-root {
+  color: #fff;
+}
+
+.Header {
+  display: flex;
+  background-color: #fff;
+}
+.Header .MuiIconButton-label {
+  color: #000;
+}
+
+.Icons {
+  margin-left: auto;
+}
+
+.Header .Icon {
+  color: #000;
+}
+
+.Icons .MuiSvgIcon-root {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.iconsHeader {
+  background-color: #ea9494 !important;
+}
+
+.dasboard-card{
+  max-width: 234px;
+  max-height: 158px;
+  padding: 20px;
+  margin-bottom: 55px;
+}
+
+.dasboard-card .css-46bh2p-MuiCardContent-root{
+  position: relative;
+}
+
+.dasboard-card .MuiSvgIcon-root{
+  font-size: 45px;
+  border: 1px solid red;
+  border-radius: 6px;
+  background: red;
+  color: #fff;
+}
+
+.Number .MuiTypography-body1{
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.letter .MuiTypography-body1{
+  font-size: 9px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #222;
+}
+
+.overlay__inner {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlay__content {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-top-color: #fff;
+  animation: spin 1s infinite linear;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+@keyframes spin {
+100% {
+  transform: rotate(360deg);
+}
+}
+
